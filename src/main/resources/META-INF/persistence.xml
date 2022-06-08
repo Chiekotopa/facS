@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.project_request_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.project.request.model.Ue</class>
+    <class>com.project.request.model.Ec</class>
+    <class>com.project.request.model.Nombreue</class>
+    <class>com.project.request.model.PiecesJointe</class>
+    <class>com.project.request.model.Etudiant</class>
+    <class>com.project.request.model.Menu</class>
+    <class>com.project.request.model.Request</class>
+    <class>com.project.request.model.Role</class>
+    <class>com.project.request.model.Notification</class>
+    <class>com.project.request.model.RequestType</class>
+    <class>com.project.request.model.Services</class>
+    <class>com.project.request.model.Transfert</class>
+    <class>com.project.request.model.Users</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mitdb"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
